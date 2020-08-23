@@ -27,8 +27,10 @@ $1
    <header class="cabecalho container">_</header>
 ```
 
-* Podemos buscar um elemento usando `$("form)`. Esse função funciona como um `document.querySelectorAll("form")` retornando um array;
+* Podemos buscar um elemento usando `$$("form)`. Esse função funciona como um `document.querySelectorAll("form")` retornando um array;
+* Podemos usar também o `$("form")` e nesse caso funciona como o `document.querySelector("form")`.
 * Utilizando o `$$` para buscar todos os input;
+* Use o `getEventListeners(document)` para buscar quais eventos temos associados a algo;
 
 ## Referências
 * [Curso Chrome DevTools](https://cursos.alura.com.br/course/chrome-devtools) do [Alura](https://www.alura.com.br/)
