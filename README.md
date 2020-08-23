@@ -31,6 +31,12 @@ $1
 * Podemos usar também o `$("form")` e nesse caso funciona como o `document.querySelector("form")`.
 * Utilizando o `$$` para buscar todos os input;
 * Use o `getEventListeners(document)` para buscar quais eventos temos associados a algo;
+* Na aba source, temos `scope`, onde conseguimos ver as variáveis do sistema nos escopos: local, closure e global.
+    * Local: variáveis com escopo apenas local.
+    * Closure: São variáveis e funções que existem apenas ligadas em um contexto. Quando foram criadas, por exemplo, foram associadas
+    a um `EventListeners` e apenas para ele que ela existe. Não consegue ser acessada de forma local nem global.
+    * Global: o `Window` faz parte do **DOM** que serve para modelar o _browser_ e que é parte do escopo global do navegador. 
+
 
 ## Referências
 * [Curso Chrome DevTools](https://cursos.alura.com.br/course/chrome-devtools) do [Alura](https://www.alura.com.br/)
