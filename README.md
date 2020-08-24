@@ -35,8 +35,8 @@ $1
     * Local: variáveis com escopo apenas local.
     * Closure: São variáveis e funções que existem apenas ligadas em um contexto. Quando foram criadas, por exemplo, foram associadas
     a um `EventListeners` e apenas para ele que ela existe. Não consegue ser acessada de forma local nem global.
-    * Global: o `Window` faz parte do **DOM** que serve para modelar o _browser_ e que é parte do escopo global do navegador. 
-
+    * Global: o Window` faz parte do **DOM** que serve para modelar o _browser_ e que é parte do escopo global do navegador. 
+    * Em `Network`, existe a opção ``no throttling`. Ela permite a realização de emulação com diferentes tipos de Internet.
 
 ## Referências
 * [Curso Chrome DevTools](https://cursos.alura.com.br/course/chrome-devtools) do [Alura](https://www.alura.com.br/)
